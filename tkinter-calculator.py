@@ -4,7 +4,7 @@ from tkinter.constants import SUNKEN
 win = tk.Tk()
 win.title('Calculator')
 
-frame = tk.Frame(win, bg="pink", padx=10)
+frame = tk.Frame(win, bg="skyblue", padx=10)
 frame.pack()
 
 entry = tk.Entry(frame, relief=SUNKEN, borderwidth=3, width=30)
